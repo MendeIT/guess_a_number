@@ -30,12 +30,12 @@ def try_to_guess_number() -> str:
 
         else:
             count += 1
-            if count == 7:
+            if count == 7 and integer != number:
                 print(Fore.YELLOW +
                       'Попробуй бинарны поиск...'
                       + Style.RESET_ALL)
 
-            elif count == 11:
+            elif count == 10 and integer != number:
                 print(Fore.YELLOW +
                       'Подсказка: Чтобы угадать число от 1 до 100, '
                       'используй деление на 2.\n Пример. 100/2 = 50, '
