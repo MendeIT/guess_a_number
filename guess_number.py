@@ -32,7 +32,7 @@ def try_to_guess_number() -> str:
             count += 1
             if count == 7 and integer != number:
                 print(Fore.YELLOW +
-                      'Попробуй бинарны поиск...'
+                      'Попробуй бинарный поиск...'
                       + Style.RESET_ALL)
 
             elif count == 10 and integer != number:
